@@ -2,8 +2,7 @@
 
 Using [boom](https://github.com/spumko/boom) inside koa context
 
-```
-
+```js
 var koa = require ('koa');
 var boom = require ('./');
 var app = koa ();
@@ -13,7 +12,6 @@ app.use (function * (next) {
 });
 
 app.listen (3000);
-
 
 ```
 
