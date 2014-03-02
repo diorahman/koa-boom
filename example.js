@@ -1,5 +1,5 @@
 var koa = require ('koa');
-var boom = require ('.');
+var boom = require ('./');
 var app = koa ();
 
 app.use (function * (next) {
