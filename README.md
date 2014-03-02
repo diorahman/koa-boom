@@ -2,9 +2,13 @@
 
 Using [boom](https://github.com/spumko/boom) inside koa context
 
+```
+$ npm install koa-boom --save
+```
+
 ```js
 var koa = require ('koa');
-var boom = require ('./');
+var boom = require ('koa-boom');
 var app = koa ();
 
 app.use (function * (next) {
