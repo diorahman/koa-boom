@@ -22,8 +22,7 @@
   "keywords": [
     "koa",
     "boom",
-    "context",
-    "http-error"
+    "error"
   ],
   "author": "Dhi Aurrahman <diorahman@rockybars.com>",
   "license": "MIT",
