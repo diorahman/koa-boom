@@ -1,5 +1,5 @@
 var koa = require ('koa');
-var boom = require ('./');
+var boom = require ('./')();
 var request = require('supertest');
 
 describe('Boom', function () {

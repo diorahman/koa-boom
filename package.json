@@ -4,7 +4,8 @@
   "description": "Using boom inside koa context",
   "main": "index.js",
   "dependencies": {
-    "boom": "~2.2.1"
+    "boom": "~2.2.1",
+    "i18n": "^0.4.1"
   },
   "devDependencies": {
     "koa": "~0.5.0",
