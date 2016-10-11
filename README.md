@@ -8,7 +8,7 @@ $ npm install koa-boom --save
 
 ```js
 var koa = require ('koa');
-var boom = require ('koa-boom');
+var boom = require ('koa-boom')();
 var app = koa ();
 
 app.use (function * (next) {
